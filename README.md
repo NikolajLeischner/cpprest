@@ -1,8 +1,10 @@
-A dockerized sample REST application written in C++.
+A dockerized REST "Hello World" written in C++.
 
-This is partially based on https://github.com/Pintulalm/Restweb
+The code uses [CPPRestSDK](https://github.com/Microsoft/cpprestsdk) and is partially based on [this sample](https://github.com/Pintulalm/Restweb).
 
 # Installation
+
+The sample currently only runs on macOS and via Docker.
 
 ## macOS
 
@@ -15,7 +17,7 @@ This is partially based on https://github.com/Pintulalm/Restweb
 * `cmake -DCMAKE_BUILD_TYPE=Release . && cmake --build .` - Replace _Release_ with _Debug_ for a build with debug symbols.
 * `./crest <PORT>`
 
-# Docker
+## Docker
 
 * `docker-compose build && docker-compose up`
 * Re-build the container after changing code: `docker-compose down && docker-compose build && docker-compose up`
