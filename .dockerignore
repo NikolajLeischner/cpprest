@@ -1,0 +1,35 @@
+# CMake
+cmake-build-debug
+/libs/*
+!libs/build_dependencies.sh
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+# C++
+*.d
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+# macOS
+.DS_Store
+# Idea
+.idea/
